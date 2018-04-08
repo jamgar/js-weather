@@ -1,9 +1,6 @@
-require('../node_modules/normalize.css/normalize.css')
 require('./css/style.css')
-import * as views from './views'
-
 const init = () => {
-  document.getElementById('root').innerHTML = views.Header()
+  document.getElementById('root').innerHTML = "Working..."
 }
 
 document.addEventListener('DOMContentLoaded', init)

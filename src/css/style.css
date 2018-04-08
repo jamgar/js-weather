@@ -1,39 +1,5 @@
 body {
-  font-family: sans-serif;
-  color: #3a3a3a;
-  height: 100vh;
-  background:
-  linear-gradient(
-    rgba(146, 220, 229, 0.7),
-    rgba(255, 225, 225, 0.7)
-    );
-}
-
-header {
-  height: 75px;
-  background-color: #FFF;
-}
-
-header #search h1 {
-  float: left;
   margin: 0;
-  padding: 18px;
-}
-
-header #search {
-  text-align: right;
-}
-
-header #search .fa-search {
-  margin-right: 25px;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-
-header #search input {
-  border: none;
-  border-bottom: 1px solid #CCC;
-  margin: 15px;
-  width: 300px;
-  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
 }

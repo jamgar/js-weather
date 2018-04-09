@@ -1,6 +1,5 @@
-# JavaScript Starter
-
-This a JavaScript Starter Boilerplate to use for any JavaScript project you will be using ES6+. It babel and webpack. You can use it to start a React app.
+# JavaScript Weather App
+This is a Weather app that will use the Wunderground API to fetch the weather for a US City/State. A user will be able to enter a City/State and see the current weather and forecast for several days.
 
 ### Version
 1.0.0

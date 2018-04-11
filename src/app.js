@@ -13,7 +13,11 @@ const closeSideMenu = () => {
 }
 
 const init = () => {
-  document.getElementById('root').innerHTML = views.Header()
+  const root = document.getElementById('root')
+  root.innerHTML = views.Header()
+  root.innerHTML += views.Current()
+  root.innerHTML += views.Forecast()
+
 
   const btnOpenSide = document.getElementById('btn-openSide')
   btnOpenSide.addEventListener('click', openSideMenu)

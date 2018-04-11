@@ -29,3 +29,43 @@ export const Header = () => {
     </div>
   `
 }
+
+export const Current = () => {
+  return `
+    <div id="current">
+      <h1 id="location">City's Weather Today</h1>
+      <h4>Wednesday April 11, 2018</h4>
+      <h3 id="description">Sunny</h3>
+      <h3 id="temp-string">68 F</h3>
+      <img id="weather-icon" alt="current weather"/>
+      <ul id="details">
+        <li id="humidity">Relative Humidity: 30%</li>
+        <li id="dewpoint">Feels Like: 52 F</li>
+        <li id="feels-like">Dewpoint 68 F</li>
+        <li id="wind">Wind: 15mph SE</li>
+      </ul>
+    </div>
+  `
+}
+
+export const Forecast = () => {
+  return `
+    <div class="forecast">
+      <div class="forecast-day">
+        <h4>Thu</h4>
+        <img id="forecast-icon" alt="forecast weather"/>
+        <p class="forecast-temp">70 F</p>
+      </div>
+      <div class="forecast-day">
+        <h4>Thu</h4>
+        <img id="forecast-icon" alt="forecast weather"/>
+        <p class="forecast-temp">70 F</p>
+      </div>
+      <div class="forecast-day">
+        <h4>Thu</h4>
+        <img id="forecast-icon" alt="forecast weather"/>
+        <p class="forecast-temp">70 F</p>
+      </div>
+    </div>
+  `
+}

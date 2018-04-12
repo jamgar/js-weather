@@ -119,7 +119,7 @@ header #search input {
   padding: 15px 0;
 }
 
-/* Current section */
+/* Current  and Forecast section */
 #current {
   background-color: rgba(255, 255, 255, 0.7);
   box-sizing: border-box;
@@ -148,4 +148,29 @@ header #search input {
 .forecast-day {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 10px;
+  text-align: center;
+}
+
+.temp-desc {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 2.5rem;
+}
+
+#temp-string {
+  margin: 0;
+  text-align: right;
+}
+
+#weather-icon {
+  height: 100%;
+}
+
+.forecast-temp {
+  margin: 0;
+  text-align: right;
+}
+
+.forecast-icon {
+  height: 100%;
 }

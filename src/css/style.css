@@ -25,7 +25,7 @@ header #search {
   text-align: right;
 }
 
-header #search .btn-search {
+#btn-main-search {
   color: #3a3a3a;
   margin-right: 25px;
   font-size: 1.5rem;
@@ -110,7 +110,7 @@ header #search input {
   padding: 10px;
 }
 
-.side-nav .btn-search {
+.side-nav #btn-side-search {
   text-align: center;
   background-color: lightblue;
   color: #3a3a3a;
@@ -146,7 +146,7 @@ header #search input {
 }
 
 .forecast-day {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(164, 228, 238, 0.7);
   padding: 10px;
   text-align: center;
 }
@@ -154,10 +154,10 @@ header #search input {
 .temp-desc {
   display: grid;
   grid-template-columns: auto auto;
-  font-size: 2.5rem;
 }
 
 #temp-string {
+  font-size: 3rem;
   margin: 0;
   text-align: right;
 }
@@ -167,10 +167,15 @@ header #search input {
 }
 
 .forecast-temp {
+  font-size: 2rem;
   margin: 0;
   text-align: right;
 }
 
 .forecast-icon {
   height: 100%;
+}
+
+@media(max-width: 680px) {
+  .forecast-temp { font-size: 1.8rem; }
 }

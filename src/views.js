@@ -21,18 +21,18 @@ export const Header = () => {
         </span>
         <h1><i class="fas fa-sun"></i> Weather App</h1>
         <div id="main-search">
-          <input type="text" id="city" placeholder="Enter City"/>
-          <input type="text" id="state" placeholder="Enter State"/>
-          <a href="#" class="btn-search"><i class="fas fa-search"></i></a>
+          <input type="text" id="city-main" placeholder="Enter City"/>
+          <input type="text" id="state-main" placeholder="Enter State"/>
+          <a href="#" id="btn-main-search"><i class="fas fa-search"></i></a>
         </div>
       </div>
     </header>
     <div id="side-menu" class="side-nav">
       <a href="#" id="btn-closeSide">&times;</a>
       <div id="inputs">
-      <input type="text" id="city" placeholder="Enter City"/>
-      <input type="text" id="state" placeholder="Enter State"/>
-      <a href="#" class="btn-search"><i class="fas fa-search"></i> Search</a>
+      <input type="text" id="city-side" placeholder="Enter City"/>
+      <input type="text" id="state-side" placeholder="Enter State"/>
+      <a href="#" id="btn-side-search"><i class="fas fa-search"></i> Search</a>
       </div>
     </div>
   `
